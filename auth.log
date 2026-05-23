@@ -1,0 +1,859 @@
+May 15 22:02:44 ubandujelly22 useradd[1087]: failed adding user 'vboxadd', data deleted
+May 15 22:02:44 ubandujelly22 useradd[1088]: failed adding user 'vboxadd', data deleted
+May 15 22:02:46 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+May 15 22:02:46 ubandujelly22 systemd-logind[684]: New session c1 of user gdm.
+May 15 22:02:46 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+May 15 22:02:52 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 15 22:03:14 ubandujelly22 dbus-daemon[655]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 15 22:03:21 ubandujelly22 gdm-password]: gkr-pam: unable to locate daemon control file
+May 15 22:03:21 ubandujelly22 gdm-password]: gkr-pam: stashed password to try later in open session
+May 15 22:03:21 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 15 22:03:21 ubandujelly22 systemd-logind[684]: New session 2 of user vboxuser.
+May 15 22:03:22 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 15 22:03:23 ubandujelly22 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+May 15 22:03:25 ubandujelly22 gnome-keyring-daemon[2412]: failed to unlock login keyring on startup
+May 15 22:03:25 ubandujelly22 gnome-keyring-daemon[2412]: The Secret Service was already initialized
+May 15 22:03:25 ubandujelly22 gnome-keyring-daemon[2412]: The SSH agent was already initialized
+May 15 22:03:25 ubandujelly22 gnome-keyring-daemon[2412]: The PKCS#11 component was already initialized
+May 15 22:03:30 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 15 22:03:42 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 15 22:03:42 ubandujelly22 systemd-logind[684]: Session c1 logged out. Waiting for processes to exit.
+May 15 22:03:43 ubandujelly22 systemd-logind[684]: Removed session c1.
+May 15 22:03:43 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 15 22:03:50 ubandujelly22 dbus-daemon[655]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 15 22:04:01 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 15 22:04:01 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 15 22:07:10 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 15 22:07:10 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 15 22:07:22 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 15 22:07:22 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 15 22:07:31 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 15 22:07:31 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 15 22:08:02 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 15 22:08:02 ubandujelly22 pkexec[5033]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 15 22:17:01 ubandujelly22 CRON[5094]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 15 22:17:01 ubandujelly22 CRON[5094]: pam_unix(cron:session): session closed for user root
+May 15 22:22:43 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 15 22:22:43 ubandujelly22 pkexec[5151]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 15 22:30:01 ubandujelly22 CRON[5201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 15 22:30:01 ubandujelly22 CRON[5201]: pam_unix(cron:session): session closed for user root
+May 15 23:17:01 ubandujelly22 CRON[5673]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 15 23:17:01 ubandujelly22 CRON[5673]: pam_unix(cron:session): session closed for user root
+May 15 23:30:01 ubandujelly22 CRON[6712]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 15 23:30:01 ubandujelly22 CRON[6712]: pam_unix(cron:session): session closed for user root
+May 15 23:38:14 ubandujelly22 systemd-logind[684]: System is powering down.
+May 16 10:40:04 ubandujelly22 sshd[758]: Server listening on 0.0.0.0 port 22.
+May 16 10:40:04 ubandujelly22 sshd[758]: Server listening on :: port 22.
+May 16 10:40:04 ubandujelly22 systemd-logind[683]: New seat seat0.
+May 16 10:40:04 ubandujelly22 systemd-logind[683]: Watching system buttons on /dev/input/event0 (Power Button)
+May 16 10:40:04 ubandujelly22 systemd-logind[683]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 16 10:40:04 ubandujelly22 systemd-logind[683]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 16 10:40:23 ubandujelly22 useradd[1079]: failed adding user 'vboxadd', data deleted
+May 16 10:40:23 ubandujelly22 useradd[1080]: failed adding user 'vboxadd', data deleted
+May 16 10:40:26 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+May 16 10:40:26 ubandujelly22 systemd-logind[683]: New session c1 of user gdm.
+May 16 10:40:26 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+May 16 10:40:31 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 16 10:40:48 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 16 10:40:52 ubandujelly22 dbus-daemon[653]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 16 10:40:54 ubandujelly22 gdm-password]: gkr-pam: unable to locate daemon control file
+May 16 10:40:54 ubandujelly22 gdm-password]: gkr-pam: stashed password to try later in open session
+May 16 10:40:54 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 16 10:40:54 ubandujelly22 systemd-logind[683]: New session 2 of user vboxuser.
+May 16 10:40:54 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 16 10:40:55 ubandujelly22 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+May 16 10:40:57 ubandujelly22 gnome-keyring-daemon[2386]: failed to unlock login keyring on startup
+May 16 10:40:58 ubandujelly22 gnome-keyring-daemon[2386]: The SSH agent was already initialized
+May 16 10:40:58 ubandujelly22 gnome-keyring-daemon[2386]: The Secret Service was already initialized
+May 16 10:40:58 ubandujelly22 gnome-keyring-daemon[2386]: The PKCS#11 component was already initialized
+May 16 10:41:03 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 16 10:41:15 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 16 10:41:15 ubandujelly22 systemd-logind[683]: Session c1 logged out. Waiting for processes to exit.
+May 16 10:41:15 ubandujelly22 systemd-logind[683]: Removed session c1.
+May 16 10:41:16 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 16 10:41:22 ubandujelly22 dbus-daemon[653]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 16 10:41:28 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 10:41:28 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 10:42:18 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 16 10:42:18 ubandujelly22 pkexec[4141]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 16 10:42:57 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 10:42:57 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 10:43:13 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 10:43:13 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 10:43:19 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 10:43:19 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 10:45:13 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 16 10:45:13 ubandujelly22 pkexec[4934]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 16 11:05:03 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 11:17:01 ubandujelly22 CRON[5523]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 11:17:01 ubandujelly22 CRON[5523]: pam_unix(cron:session): session closed for user root
+May 16 11:30:01 ubandujelly22 CRON[5615]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 11:30:01 ubandujelly22 CRON[5615]: pam_unix(cron:session): session closed for user root
+May 16 11:34:18 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 11:53:05 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 16 11:53:12 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 12:59:51 ubandujelly22 CRON[6067]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 12:59:51 ubandujelly22 CRON[6067]: pam_unix(cron:session): session closed for user root
+May 16 13:17:01 ubandujelly22 CRON[6173]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 13:17:01 ubandujelly22 CRON[6173]: pam_unix(cron:session): session closed for user root
+May 16 13:30:01 ubandujelly22 CRON[6268]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 13:30:01 ubandujelly22 CRON[6268]: pam_unix(cron:session): session closed for user root
+May 16 15:54:33 ubandujelly22 CRON[6494]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 15:54:33 ubandujelly22 CRON[6494]: pam_unix(cron:session): session closed for user root
+May 16 15:54:33 ubandujelly22 CRON[6496]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 15:54:33 ubandujelly22 CRON[6496]: pam_unix(cron:session): session closed for user root
+May 16 15:54:35 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 16:14:27 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 16:17:01 ubandujelly22 CRON[6902]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 16:17:01 ubandujelly22 CRON[6902]: pam_unix(cron:session): session closed for user root
+May 16 16:30:01 ubandujelly22 CRON[6997]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 16:30:01 ubandujelly22 CRON[6997]: pam_unix(cron:session): session closed for user root
+May 16 16:32:07 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 16:46:35 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 17:04:14 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 17:17:01 ubandujelly22 CRON[8036]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 17:17:01 ubandujelly22 CRON[8036]: pam_unix(cron:session): session closed for user root
+May 16 17:30:01 ubandujelly22 CRON[8425]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 17:30:01 ubandujelly22 CRON[8425]: pam_unix(cron:session): session closed for user root
+May 16 17:31:02 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 18:00:48 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 18:17:01 ubandujelly22 CRON[10650]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 18:17:01 ubandujelly22 CRON[10650]: pam_unix(cron:session): session closed for user root
+May 16 18:30:01 ubandujelly22 CRON[11338]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 18:30:01 ubandujelly22 CRON[11338]: pam_unix(cron:session): session closed for user root
+May 16 18:33:35 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 18:35:51 ubandujelly22 useradd[12544]: failed adding user 'vboxadd', data deleted
+May 16 18:35:51 ubandujelly22 useradd[12545]: failed adding user 'vboxadd', data deleted
+May 16 18:36:03 ubandujelly22 useradd[13772]: failed adding user 'vboxadd', data deleted
+May 16 18:36:03 ubandujelly22 useradd[13773]: failed adding user 'vboxadd', data deleted
+May 16 19:00:47 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 19:00:58 ubandujelly22 systemd-logind[683]: System is rebooting.
+May 16 19:01:24 ubandujelly22 sshd[757]: Server listening on 0.0.0.0 port 22.
+May 16 19:01:24 ubandujelly22 sshd[757]: Server listening on :: port 22.
+May 16 19:01:25 ubandujelly22 systemd-logind[671]: New seat seat0.
+May 16 19:01:25 ubandujelly22 systemd-logind[671]: Watching system buttons on /dev/input/event0 (Power Button)
+May 16 19:01:25 ubandujelly22 systemd-logind[671]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 16 19:01:25 ubandujelly22 systemd-logind[671]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 16 19:01:48 ubandujelly22 useradd[1068]: failed adding user 'vboxadd', data deleted
+May 16 19:01:48 ubandujelly22 useradd[1069]: failed adding user 'vboxadd', data deleted
+May 16 19:01:51 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+May 16 19:01:52 ubandujelly22 systemd-logind[671]: New session c1 of user gdm.
+May 16 19:01:52 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+May 16 19:01:59 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 16 19:02:18 ubandujelly22 gdm-password]: gkr-pam: unable to locate daemon control file
+May 16 19:02:18 ubandujelly22 gdm-password]: gkr-pam: stashed password to try later in open session
+May 16 19:02:18 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 16 19:02:18 ubandujelly22 systemd-logind[671]: New session 2 of user vboxuser.
+May 16 19:02:19 ubandujelly22 dbus-daemon[619]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 16 19:02:19 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 16 19:02:21 ubandujelly22 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+May 16 19:02:23 ubandujelly22 gnome-keyring-daemon[2375]: failed to unlock login keyring on startup
+May 16 19:02:23 ubandujelly22 gnome-keyring-daemon[2375]: The Secret Service was already initialized
+May 16 19:02:23 ubandujelly22 gnome-keyring-daemon[2375]: The SSH agent was already initialized
+May 16 19:02:24 ubandujelly22 gnome-keyring-daemon[2375]: The PKCS#11 component was already initialized
+May 16 19:02:30 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 16 19:02:44 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 16 19:02:44 ubandujelly22 systemd-logind[671]: Session c1 logged out. Waiting for processes to exit.
+May 16 19:02:45 ubandujelly22 systemd-logind[671]: Removed session c1.
+May 16 19:02:45 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 16 19:02:49 ubandujelly22 dbus-daemon[619]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 16 19:03:02 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 19:03:02 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 19:03:09 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 19:03:09 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 19:03:28 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 19:03:28 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 19:04:26 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 16 19:04:26 ubandujelly22 pkexec[4392]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 16 19:10:46 ubandujelly22 su: pam_unix(su-l:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=vboxuser rhost=  user=root
+May 16 19:10:47 ubandujelly22 su: FAILED SU (to root) vboxuser on pts/0
+May 16 19:10:56 ubandujelly22 su: pam_unix(su-l:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=vboxuser rhost=  user=root
+May 16 19:10:58 ubandujelly22 su: FAILED SU (to root) vboxuser on pts/0
+May 16 19:11:10 ubandujelly22 su: pam_unix(su-l:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=vboxuser rhost=  user=root
+May 16 19:11:12 ubandujelly22 su: FAILED SU (to root) vboxuser on pts/0
+May 16 19:11:23 ubandujelly22 su: pam_unix(su-l:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=vboxuser rhost=  user=root
+May 16 19:11:25 ubandujelly22 su: FAILED SU (to root) vboxuser on pts/0
+May 16 19:17:01 ubandujelly22 CRON[4618]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 19:17:01 ubandujelly22 CRON[4618]: pam_unix(cron:session): session closed for user root
+May 16 19:18:41 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 16 19:18:41 ubandujelly22 pkexec[4648]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 16 19:22:17 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/sbin/adduser vboxuser vboxsf
+May 16 19:22:17 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 16 19:22:17 ubandujelly22 gpasswd[4730]: user vboxuser added by root to group vboxsf
+May 16 19:22:17 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 16 19:22:52 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.77, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 16 19:22:52 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session closed for user vboxuser
+May 16 19:22:53 ubandujelly22 systemd-logind[671]: Session 2 logged out. Waiting for processes to exit.
+May 16 19:22:53 ubandujelly22 systemd-logind[671]: Removed session 2.
+May 16 19:22:53 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+May 16 19:22:53 ubandujelly22 systemd-logind[671]: New session c2 of user gdm.
+May 16 19:22:53 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+May 16 19:22:58 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.133 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 16 19:23:12 ubandujelly22 gdm-password]: gkr-pam: unable to locate daemon control file
+May 16 19:23:12 ubandujelly22 gdm-password]: gkr-pam: stashed password to try later in open session
+May 16 19:23:12 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 16 19:23:12 ubandujelly22 systemd-logind[671]: New session 6 of user vboxuser.
+May 16 19:23:12 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 16 19:23:13 ubandujelly22 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+May 16 19:23:15 ubandujelly22 gnome-keyring-daemon[5193]: failed to unlock login keyring on startup
+May 16 19:23:16 ubandujelly22 gnome-keyring-daemon[5193]: The SSH agent was already initialized
+May 16 19:23:16 ubandujelly22 gnome-keyring-daemon[5193]: The Secret Service was already initialized
+May 16 19:23:16 ubandujelly22 gnome-keyring-daemon[5193]: The PKCS#11 component was already initialized
+May 16 19:23:19 ubandujelly22 dbus-daemon[619]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 16 19:23:20 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:6 (system bus name :1.164 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 16 19:23:38 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 16 19:23:38 ubandujelly22 systemd-logind[671]: Session c2 logged out. Waiting for processes to exit.
+May 16 19:23:38 ubandujelly22 systemd-logind[671]: Removed session c2.
+May 16 19:23:38 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.133, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 16 19:23:47 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 19:23:47 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 19:23:53 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 19:23:53 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 19:24:03 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 16 19:24:03 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 16 19:24:35 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 16 19:24:35 ubandujelly22 pkexec[6597]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 16 19:30:01 ubandujelly22 CRON[7311]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 19:30:01 ubandujelly22 CRON[7311]: pam_unix(cron:session): session closed for user root
+May 16 20:05:01 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 20:17:01 ubandujelly22 CRON[8139]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 20:17:01 ubandujelly22 CRON[8139]: pam_unix(cron:session): session closed for user root
+May 16 20:30:01 ubandujelly22 CRON[8458]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 20:30:01 ubandujelly22 CRON[8458]: pam_unix(cron:session): session closed for user root
+May 16 20:38:09 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 16 20:38:34 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 21:17:01 ubandujelly22 CRON[9684]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 21:17:01 ubandujelly22 CRON[9684]: pam_unix(cron:session): session closed for user root
+May 16 21:30:01 ubandujelly22 CRON[10117]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 21:30:01 ubandujelly22 CRON[10117]: pam_unix(cron:session): session closed for user root
+May 16 22:17:01 ubandujelly22 CRON[10934]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 22:17:01 ubandujelly22 CRON[10934]: pam_unix(cron:session): session closed for user root
+May 16 22:30:01 ubandujelly22 CRON[10942]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 16 22:30:01 ubandujelly22 CRON[10942]: pam_unix(cron:session): session closed for user root
+May 16 22:47:53 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 16 22:48:08 ubandujelly22 systemd-logind[671]: System is powering down.
+May 17 10:31:29 ubandujelly22 sshd[760]: Server listening on 0.0.0.0 port 22.
+May 17 10:31:29 ubandujelly22 sshd[760]: Server listening on :: port 22.
+May 17 10:31:29 ubandujelly22 systemd-logind[676]: New seat seat0.
+May 17 10:31:29 ubandujelly22 systemd-logind[676]: Watching system buttons on /dev/input/event0 (Power Button)
+May 17 10:31:29 ubandujelly22 systemd-logind[676]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 17 10:31:29 ubandujelly22 systemd-logind[676]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 17 10:31:51 ubandujelly22 useradd[1071]: failed adding user 'vboxadd', data deleted
+May 17 10:31:51 ubandujelly22 useradd[1072]: failed adding user 'vboxadd', data deleted
+May 17 10:31:54 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+May 17 10:31:54 ubandujelly22 systemd-logind[676]: New session c1 of user gdm.
+May 17 10:31:54 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+May 17 10:32:02 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 17 10:32:17 ubandujelly22 gdm-password]: gkr-pam: unable to locate daemon control file
+May 17 10:32:17 ubandujelly22 gdm-password]: gkr-pam: stashed password to try later in open session
+May 17 10:32:17 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 17 10:32:17 ubandujelly22 systemd-logind[676]: New session 2 of user vboxuser.
+May 17 10:32:17 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 17 10:32:18 ubandujelly22 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+May 17 10:32:21 ubandujelly22 gnome-keyring-daemon[2376]: failed to unlock login keyring on startup
+May 17 10:32:21 ubandujelly22 gnome-keyring-daemon[2376]: The SSH agent was already initialized
+May 17 10:32:21 ubandujelly22 gnome-keyring-daemon[2376]: The Secret Service was already initialized
+May 17 10:32:21 ubandujelly22 gnome-keyring-daemon[2376]: The PKCS#11 component was already initialized
+May 17 10:32:22 ubandujelly22 dbus-daemon[620]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 17 10:32:26 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 17 10:32:44 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 17 10:32:44 ubandujelly22 systemd-logind[676]: Session c1 logged out. Waiting for processes to exit.
+May 17 10:32:45 ubandujelly22 systemd-logind[676]: Removed session c1.
+May 17 10:32:45 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 17 10:32:54 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 10:32:54 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 10:33:52 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 10:33:52 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 10:34:15 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 10:34:15 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 10:34:26 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 17 10:34:26 ubandujelly22 pkexec[4683]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 17 10:34:31 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 10:34:31 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 10:36:37 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 17 10:36:37 ubandujelly22 pkexec[4939]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 17 11:12:54 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 17 11:17:01 ubandujelly22 CRON[5283]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 11:17:01 ubandujelly22 CRON[5283]: pam_unix(cron:session): session closed for user root
+May 17 11:26:13 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 17 11:30:01 ubandujelly22 CRON[5535]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 11:30:01 ubandujelly22 CRON[5535]: pam_unix(cron:session): session closed for user root
+May 17 12:05:59 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 17 12:06:08 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 17 12:17:01 ubandujelly22 CRON[6019]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 12:17:01 ubandujelly22 CRON[6019]: pam_unix(cron:session): session closed for user root
+May 17 12:30:01 ubandujelly22 CRON[6099]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 12:30:01 ubandujelly22 CRON[6099]: pam_unix(cron:session): session closed for user root
+May 17 13:40:44 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 17 13:40:51 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 17 13:40:55 ubandujelly22 CRON[6435]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 13:40:55 ubandujelly22 CRON[6435]: pam_unix(cron:session): session closed for user root
+May 17 13:50:00 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 17 14:12:35 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 17 14:12:35 ubandujelly22 pkexec[7512]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 17 14:17:01 ubandujelly22 CRON[7561]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 14:17:01 ubandujelly22 CRON[7561]: pam_unix(cron:session): session closed for user root
+May 17 14:30:01 ubandujelly22 CRON[7796]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 14:30:01 ubandujelly22 CRON[7796]: pam_unix(cron:session): session closed for user root
+May 17 15:17:01 ubandujelly22 CRON[8035]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 15:17:01 ubandujelly22 CRON[8035]: pam_unix(cron:session): session closed for user root
+May 17 15:17:09 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:17:26 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:17:26 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [vboxuser]
+May 17 15:17:50 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:17:50 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [vboxuser]
+May 17 15:17:57 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:17:57 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [vboxuser]
+May 17 15:17:59 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 17 15:18:02 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:18:02 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [vboxuser]
+May 17 15:18:02 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:18:07 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:18:07 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [vboxuser]
+May 17 15:18:08 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:18:08 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [vboxuser]
+May 17 15:18:21 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 17 15:18:21 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [vboxuser]
+May 17 15:18:25 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 17 15:19:39 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+May 17 15:19:39 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 17 15:29:18 ubandujelly22 sshd[8261]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=vboxuser
+May 17 15:29:21 ubandujelly22 sshd[8261]: Failed password for vboxuser from 127.0.0.1 port 59696 ssh2
+May 17 15:29:34 ubandujelly22 sshd[8261]: message repeated 2 times: [ Failed password for vboxuser from 127.0.0.1 port 59696 ssh2]
+May 17 15:29:36 ubandujelly22 sshd[8261]: Connection closed by authenticating user vboxuser 127.0.0.1 port 59696 [preauth]
+May 17 15:29:36 ubandujelly22 sshd[8261]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=vboxuser
+May 17 15:30:01 ubandujelly22 CRON[8272]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 15:30:01 ubandujelly22 CRON[8272]: pam_unix(cron:session): session closed for user root
+May 17 15:32:29 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 17 15:32:29 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 17 15:32:29 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 17 15:37:29 ubandujelly22 sshd[8378]: Invalid user nonexistent from 127.0.0.1 port 49660
+May 17 15:37:32 ubandujelly22 sshd[8378]: pam_unix(sshd:auth): check pass; user unknown
+May 17 15:37:32 ubandujelly22 sshd[8378]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+May 17 15:37:35 ubandujelly22 sshd[8378]: Failed password for invalid user nonexistent from 127.0.0.1 port 49660 ssh2
+May 17 15:37:38 ubandujelly22 sshd[8378]: pam_unix(sshd:auth): check pass; user unknown
+May 17 15:37:39 ubandujelly22 sshd[8378]: Failed password for invalid user nonexistent from 127.0.0.1 port 49660 ssh2
+May 17 15:37:42 ubandujelly22 sshd[8378]: pam_unix(sshd:auth): check pass; user unknown
+May 17 15:37:44 ubandujelly22 sshd[8378]: Failed password for invalid user nonexistent from 127.0.0.1 port 49660 ssh2
+May 17 15:37:45 ubandujelly22 sshd[8378]: Connection closed by invalid user nonexistent 127.0.0.1 port 49660 [preauth]
+May 17 15:37:45 ubandujelly22 sshd[8378]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+May 17 15:39:19 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/aut.log
+May 17 15:39:19 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 17 15:39:19 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 17 15:39:31 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+May 17 15:39:31 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 17 15:39:31 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 17 16:02:37 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/systemctl stop ssh
+May 17 16:02:37 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 17 16:02:37 ubandujelly22 sshd[760]: Received signal 15; terminating.
+May 17 16:02:37 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 17 16:02:44 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+May 17 16:02:44 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 17 16:02:44 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 17 16:02:53 ubandujelly22 systemd-logind[676]: System is powering down.
+May 17 16:02:53 ubandujelly22 gnome-keyring-daemon[2376]: ssh-agent: Child process exited with code 2
+May 17 16:02:54 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 17 21:38:17 ubandujelly22 sshd[761]: Server listening on 0.0.0.0 port 22.
+May 17 21:38:17 ubandujelly22 sshd[761]: Server listening on :: port 22.
+May 17 21:38:17 ubandujelly22 systemd-logind[685]: New seat seat0.
+May 17 21:38:17 ubandujelly22 systemd-logind[685]: Watching system buttons on /dev/input/event0 (Power Button)
+May 17 21:38:17 ubandujelly22 systemd-logind[685]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 17 21:38:17 ubandujelly22 systemd-logind[685]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 17 21:38:36 ubandujelly22 useradd[1072]: failed adding user 'vboxadd', data deleted
+May 17 21:38:36 ubandujelly22 useradd[1073]: failed adding user 'vboxadd', data deleted
+May 17 21:38:38 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+May 17 21:38:38 ubandujelly22 systemd-logind[685]: New session c1 of user gdm.
+May 17 21:38:38 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+May 17 21:38:44 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 17 21:39:07 ubandujelly22 dbus-daemon[636]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 17 21:39:13 ubandujelly22 gdm-password]: gkr-pam: unable to locate daemon control file
+May 17 21:39:13 ubandujelly22 gdm-password]: gkr-pam: stashed password to try later in open session
+May 17 21:39:13 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 17 21:39:13 ubandujelly22 systemd-logind[685]: New session 2 of user vboxuser.
+May 17 21:39:13 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 17 21:39:14 ubandujelly22 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+May 17 21:39:16 ubandujelly22 gnome-keyring-daemon[2377]: failed to unlock login keyring on startup
+May 17 21:39:17 ubandujelly22 gnome-keyring-daemon[2377]: The SSH agent was already initialized
+May 17 21:39:17 ubandujelly22 gnome-keyring-daemon[2377]: The Secret Service was already initialized
+May 17 21:39:17 ubandujelly22 gnome-keyring-daemon[2377]: The PKCS#11 component was already initialized
+May 17 21:39:22 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 17 21:39:40 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 17 21:39:40 ubandujelly22 systemd-logind[685]: Session c1 logged out. Waiting for processes to exit.
+May 17 21:39:40 ubandujelly22 systemd-logind[685]: Removed session c1.
+May 17 21:39:41 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 17 21:39:41 ubandujelly22 dbus-daemon[636]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 17 21:40:03 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 21:40:03 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 21:40:12 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 21:40:12 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 21:40:23 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 21:40:23 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 21:41:00 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 17 21:41:00 ubandujelly22 pkexec[3747]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 17 21:55:46 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 17 21:55:46 ubandujelly22 pkexec[5472]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 17 22:17:02 ubandujelly22 CRON[6508]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 22:17:02 ubandujelly22 CRON[6508]: pam_unix(cron:session): session closed for user root
+May 17 22:30:01 ubandujelly22 CRON[7011]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 17 22:30:01 ubandujelly22 CRON[7011]: pam_unix(cron:session): session closed for user root
+May 17 22:35:40 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.76, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 17 22:35:40 ubandujelly22 systemd-logind[685]: System is powering down.
+May 18 07:34:39 ubandujelly22 sshd[756]: Server listening on 0.0.0.0 port 22.
+May 18 07:34:39 ubandujelly22 sshd[756]: Server listening on :: port 22.
+May 18 07:34:39 ubandujelly22 systemd-logind[682]: New seat seat0.
+May 18 07:34:39 ubandujelly22 systemd-logind[682]: Watching system buttons on /dev/input/event0 (Power Button)
+May 18 07:34:39 ubandujelly22 systemd-logind[682]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 18 07:34:39 ubandujelly22 systemd-logind[682]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 18 07:35:10 ubandujelly22 useradd[1067]: failed adding user 'vboxadd', data deleted
+May 18 07:35:10 ubandujelly22 useradd[1068]: failed adding user 'vboxadd', data deleted
+May 18 07:35:14 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+May 18 07:35:14 ubandujelly22 systemd-logind[682]: New session c1 of user gdm.
+May 18 07:35:14 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+May 18 07:35:24 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 18 07:35:42 ubandujelly22 dbus-daemon[644]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 18 07:36:01 ubandujelly22 gdm-password]: gkr-pam: unable to locate daemon control file
+May 18 07:36:01 ubandujelly22 gdm-password]: gkr-pam: stashed password to try later in open session
+May 18 07:36:01 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 18 07:36:01 ubandujelly22 systemd-logind[682]: New session 2 of user vboxuser.
+May 18 07:36:02 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 18 07:36:04 ubandujelly22 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+May 18 07:36:07 ubandujelly22 gnome-keyring-daemon[2380]: failed to unlock login keyring on startup
+May 18 07:36:08 ubandujelly22 gnome-keyring-daemon[2380]: The SSH agent was already initialized
+May 18 07:36:08 ubandujelly22 gnome-keyring-daemon[2380]: The Secret Service was already initialized
+May 18 07:36:08 ubandujelly22 gnome-keyring-daemon[2380]: The PKCS#11 component was already initialized
+May 18 07:36:15 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 18 07:36:31 ubandujelly22 dbus-daemon[644]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 18 07:36:35 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 18 07:36:36 ubandujelly22 systemd-logind[682]: Session c1 logged out. Waiting for processes to exit.
+May 18 07:36:36 ubandujelly22 systemd-logind[682]: Removed session c1.
+May 18 07:36:37 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 18 07:36:57 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 18 07:36:57 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 18 07:38:11 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 18 07:38:11 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 18 07:38:27 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 18 07:38:27 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 18 07:38:36 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 18 07:38:36 ubandujelly22 pkexec[4436]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 18 07:38:44 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 18 07:38:44 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 18 07:52:31 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 18 07:52:31 ubandujelly22 pkexec[6477]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 18 08:13:35 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 18 08:13:35 ubandujelly22 pkexec[7564]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 18 08:17:01 ubandujelly22 CRON[7681]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 08:17:01 ubandujelly22 CRON[7681]: pam_unix(cron:session): session closed for user root
+May 18 08:23:13 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 18 08:23:18 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 08:30:01 ubandujelly22 CRON[8156]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 08:30:01 ubandujelly22 CRON[8156]: pam_unix(cron:session): session closed for user root
+May 18 09:17:01 ubandujelly22 CRON[9698]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 09:17:01 ubandujelly22 CRON[9698]: pam_unix(cron:session): session closed for user root
+May 18 09:28:43 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 09:30:02 ubandujelly22 CRON[10195]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 09:30:02 ubandujelly22 CRON[10195]: pam_unix(cron:session): session closed for user root
+May 18 09:41:35 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 10:17:01 ubandujelly22 CRON[11684]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 10:17:01 ubandujelly22 CRON[11684]: pam_unix(cron:session): session closed for user root
+May 18 10:30:01 ubandujelly22 CRON[12079]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 10:30:01 ubandujelly22 CRON[12079]: pam_unix(cron:session): session closed for user root
+May 18 10:53:36 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 18 10:53:41 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 11:02:28 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+May 18 11:02:28 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [vboxuser]
+May 18 11:02:34 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 11:13:21 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 11:17:01 ubandujelly22 CRON[13661]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 11:17:01 ubandujelly22 CRON[13661]: pam_unix(cron:session): session closed for user root
+May 18 11:25:05 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 11:30:01 ubandujelly22 CRON[14156]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 11:30:01 ubandujelly22 CRON[14156]: pam_unix(cron:session): session closed for user root
+May 18 11:32:57 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 12:04:37 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 12:17:01 ubandujelly22 CRON[16035]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 12:17:01 ubandujelly22 CRON[16035]: pam_unix(cron:session): session closed for user root
+May 18 12:30:01 ubandujelly22 CRON[16499]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 12:30:01 ubandujelly22 CRON[16499]: pam_unix(cron:session): session closed for user root
+May 18 12:40:05 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 18 13:17:01 ubandujelly22 CRON[18001]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 13:17:01 ubandujelly22 CRON[18001]: pam_unix(cron:session): session closed for user root
+May 18 13:30:01 ubandujelly22 CRON[18429]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 13:30:01 ubandujelly22 CRON[18429]: pam_unix(cron:session): session closed for user root
+May 18 14:17:01 ubandujelly22 CRON[19814]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 14:17:01 ubandujelly22 CRON[19814]: pam_unix(cron:session): session closed for user root
+May 18 14:30:01 ubandujelly22 CRON[20173]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 14:30:01 ubandujelly22 CRON[20173]: pam_unix(cron:session): session closed for user root
+May 18 15:17:01 ubandujelly22 CRON[21560]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 15:17:01 ubandujelly22 CRON[21560]: pam_unix(cron:session): session closed for user root
+May 18 15:30:01 ubandujelly22 CRON[21947]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 15:30:01 ubandujelly22 CRON[21947]: pam_unix(cron:session): session closed for user root
+May 18 16:17:01 ubandujelly22 CRON[23313]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 16:17:01 ubandujelly22 CRON[23313]: pam_unix(cron:session): session closed for user root
+May 18 16:30:01 ubandujelly22 CRON[23658]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 16:30:01 ubandujelly22 CRON[23658]: pam_unix(cron:session): session closed for user root
+May 18 17:17:01 ubandujelly22 CRON[24963]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 18 17:17:01 ubandujelly22 CRON[24963]: pam_unix(cron:session): session closed for user root
+May 19 17:03:59 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 19 17:04:00 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 19 17:04:45 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 19 17:07:06 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 19 17:07:06 ubandujelly22 pkexec[26183]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+                                                                                                                                                                                                                  May 21 10:34:07 ubandujelly22 sshd[759]: Server listening on 0.0.0.0 port 22.
+May 21 10:34:07 ubandujelly22 sshd[759]: Server listening on :: port 22.
+May 21 10:34:07 ubandujelly22 systemd-logind[685]: New seat seat0.
+May 21 10:34:07 ubandujelly22 systemd-logind[685]: Watching system buttons on /dev/input/event0 (Power Button)
+May 21 10:34:08 ubandujelly22 systemd-logind[685]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 21 10:34:08 ubandujelly22 systemd-logind[685]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 21 10:34:43 ubandujelly22 useradd[1096]: failed adding user 'vboxadd', data deleted
+May 21 10:34:43 ubandujelly22 useradd[1097]: failed adding user 'vboxadd', data deleted
+May 21 10:34:48 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+May 21 10:34:48 ubandujelly22 systemd-logind[685]: New session c1 of user gdm.
+May 21 10:34:48 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+May 21 10:35:00 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 21 10:35:16 ubandujelly22 dbus-daemon[655]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 21 10:35:58 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 21 10:36:07 ubandujelly22 gdm-password]: gkr-pam: unable to locate daemon control file
+May 21 10:36:07 ubandujelly22 gdm-password]: gkr-pam: stashed password to try later in open session
+May 21 10:36:07 ubandujelly22 gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 21 10:36:07 ubandujelly22 systemd-logind[685]: New session 2 of user vboxuser.
+May 21 10:36:07 ubandujelly22 systemd: pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 21 10:36:08 ubandujelly22 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+May 21 10:36:10 ubandujelly22 gnome-keyring-daemon[2447]: failed to unlock login keyring on startup
+May 21 10:36:10 ubandujelly22 gnome-keyring-daemon[2447]: The SSH agent was already initialized
+May 21 10:36:10 ubandujelly22 gnome-keyring-daemon[2447]: The Secret Service was already initialized
+May 21 10:36:10 ubandujelly22 gnome-keyring-daemon[2447]: The PKCS#11 component was already initialized
+May 21 10:36:17 ubandujelly22 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+May 21 10:36:33 ubandujelly22 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+May 21 10:36:33 ubandujelly22 systemd-logind[685]: Session c1 logged out. Waiting for processes to exit.
+May 21 10:36:34 ubandujelly22 systemd-logind[685]: Removed session c1.
+May 21 10:36:34 ubandujelly22 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+May 21 10:36:35 ubandujelly22 dbus-daemon[655]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May 21 10:36:52 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 21 10:36:52 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 21 10:37:27 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 21 10:37:27 ubandujelly22 pkexec[3592]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 21 10:40:06 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 21 10:40:06 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 21 10:40:18 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 21 10:40:18 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 21 10:40:31 ubandujelly22 PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 21 10:40:31 ubandujelly22 PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 21 10:40:55 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 21 10:40:55 ubandujelly22 pkexec[4377]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 21 10:51:00 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 21 10:52:44 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 21 10:55:26 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 21 10:55:26 ubandujelly22 pkexec[4532]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 21 10:55:56 ubandujelly22 sshd[4540]: error: kex_exchange_identification: Connection closed by remote host
+May 21 10:55:56 ubandujelly22 sshd[4540]: Connection closed by 192.168.1.43 port 51552
+May 21 10:56:55 ubandujelly22 sshd[4541]: error: kex_exchange_identification: Connection closed by remote host
+May 21 10:56:55 ubandujelly22 sshd[4541]: Connection closed by 192.168.1.43 port 35414
+May 21 11:10:26 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 21 11:10:26 ubandujelly22 pkexec[5232]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 21 11:17:01 ubandujelly22 CRON[5243]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 21 11:17:01 ubandujelly22 CRON[5243]: pam_unix(cron:session): session closed for user root
+May 21 11:30:01 ubandujelly22 CRON[5250]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 21 11:30:01 ubandujelly22 CRON[5250]: pam_unix(cron:session): session closed for user root
+May 21 11:41:13 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 21 11:43:15 ubandujelly22 sshd[5336]: error: kex_exchange_identification: Connection closed by remote host
+May 21 11:43:15 ubandujelly22 sshd[5336]: Connection closed by 192.168.1.43 port 37472
+May 21 11:43:17 ubandujelly22 sshd[5337]: error: Protocol major versions differ: 2 vs. 1
+May 21 11:43:17 ubandujelly22 sshd[5337]: banner exchange: Connection from 192.168.1.43 port 37474: could not read protocol version
+May 21 11:43:17 ubandujelly22 sshd[5338]: error: Protocol major versions differ: 2 vs. 1
+May 21 11:43:17 ubandujelly22 sshd[5338]: banner exchange: Connection from 192.168.1.43 port 37480: could not read protocol version
+May 21 11:43:17 ubandujelly22 sshd[5339]: Unable to negotiate with 192.168.1.43 port 37494: no matching host key type found. Their offer: ssh-dss [preauth]
+May 21 11:43:17 ubandujelly22 sshd[5341]: Unable to negotiate with 192.168.1.43 port 37506: no matching host key type found. Their offer: ssh-rsa [preauth]
+May 21 11:43:17 ubandujelly22 sshd[5343]: Connection closed by 192.168.1.43 port 37516 [preauth]
+May 21 11:43:17 ubandujelly22 sshd[5345]: Unable to negotiate with 192.168.1.43 port 37530: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+May 21 11:43:17 ubandujelly22 sshd[5347]: Unable to negotiate with 192.168.1.43 port 37544: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+May 21 11:43:17 ubandujelly22 sshd[5349]: Connection closed by 192.168.1.43 port 37546 [preauth]
+May 21 11:49:52 ubandujelly22 sshd[5360]: Received disconnect from 192.168.1.43 port 60578:11: Bye Bye [preauth]
+May 21 11:49:52 ubandujelly22 sshd[5360]: Disconnected from authenticating user root 192.168.1.43 port 60578 [preauth]
+May 21 11:49:53 ubandujelly22 sshd[5363]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:49:53 ubandujelly22 sshd[5362]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:49:53 ubandujelly22 sshd[5364]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:49:53 ubandujelly22 sshd[5365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:49:55 ubandujelly22 sshd[5363]: Failed password for root from 192.168.1.43 port 60594 ssh2
+May 21 11:49:55 ubandujelly22 sshd[5362]: Failed password for root from 192.168.1.43 port 60584 ssh2
+May 21 11:49:55 ubandujelly22 sshd[5364]: Failed password for root from 192.168.1.43 port 60604 ssh2
+May 21 11:49:55 ubandujelly22 sshd[5365]: Failed password for root from 192.168.1.43 port 60618 ssh2
+May 21 11:49:59 ubandujelly22 sshd[5362]: Failed password for root from 192.168.1.43 port 60584 ssh2
+May 21 11:49:59 ubandujelly22 sshd[5363]: Failed password for root from 192.168.1.43 port 60594 ssh2
+May 21 11:49:59 ubandujelly22 sshd[5364]: Failed password for root from 192.168.1.43 port 60604 ssh2
+May 21 11:49:59 ubandujelly22 sshd[5365]: Failed password for root from 192.168.1.43 port 60618 ssh2
+May 21 11:50:02 ubandujelly22 sshd[5365]: Failed password for root from 192.168.1.43 port 60618 ssh2
+May 21 11:50:03 ubandujelly22 sshd[5362]: Failed password for root from 192.168.1.43 port 60584 ssh2
+May 21 11:50:03 ubandujelly22 sshd[5363]: Failed password for root from 192.168.1.43 port 60594 ssh2
+May 21 11:50:03 ubandujelly22 sshd[5364]: Failed password for root from 192.168.1.43 port 60604 ssh2
+May 21 11:50:05 ubandujelly22 sshd[5365]: Failed password for root from 192.168.1.43 port 60618 ssh2
+May 21 11:50:06 ubandujelly22 sshd[5362]: Failed password for root from 192.168.1.43 port 60584 ssh2
+May 21 11:50:06 ubandujelly22 sshd[5363]: Failed password for root from 192.168.1.43 port 60594 ssh2
+May 21 11:50:06 ubandujelly22 sshd[5364]: Failed password for root from 192.168.1.43 port 60604 ssh2
+May 21 11:50:09 ubandujelly22 sshd[5362]: Failed password for root from 192.168.1.43 port 60584 ssh2
+May 21 11:50:09 ubandujelly22 sshd[5363]: Failed password for root from 192.168.1.43 port 60594 ssh2
+May 21 11:50:09 ubandujelly22 sshd[5364]: Failed password for root from 192.168.1.43 port 60604 ssh2
+May 21 11:50:09 ubandujelly22 sshd[5365]: Failed password for root from 192.168.1.43 port 60618 ssh2
+May 21 11:50:12 ubandujelly22 sshd[5362]: Failed password for root from 192.168.1.43 port 60584 ssh2
+May 21 11:50:12 ubandujelly22 sshd[5363]: Failed password for root from 192.168.1.43 port 60594 ssh2
+May 21 11:50:13 ubandujelly22 sshd[5364]: Failed password for root from 192.168.1.43 port 60604 ssh2
+May 21 11:50:13 ubandujelly22 sshd[5365]: Failed password for root from 192.168.1.43 port 60618 ssh2
+May 21 11:50:14 ubandujelly22 sshd[5362]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 60584 ssh2 [preauth]
+May 21 11:50:14 ubandujelly22 sshd[5362]: Disconnecting authenticating user root 192.168.1.43 port 60584: Too many authentication failures [preauth]
+May 21 11:50:14 ubandujelly22 sshd[5362]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:14 ubandujelly22 sshd[5362]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:14 ubandujelly22 sshd[5363]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 60594 ssh2 [preauth]
+May 21 11:50:14 ubandujelly22 sshd[5363]: Disconnecting authenticating user root 192.168.1.43 port 60594: Too many authentication failures [preauth]
+May 21 11:50:14 ubandujelly22 sshd[5363]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:14 ubandujelly22 sshd[5363]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:14 ubandujelly22 sshd[5364]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 60604 ssh2 [preauth]
+May 21 11:50:14 ubandujelly22 sshd[5364]: Disconnecting authenticating user root 192.168.1.43 port 60604: Too many authentication failures [preauth]
+May 21 11:50:14 ubandujelly22 sshd[5364]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:14 ubandujelly22 sshd[5364]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:14 ubandujelly22 sshd[5365]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 60618 ssh2 [preauth]
+May 21 11:50:14 ubandujelly22 sshd[5365]: Disconnecting authenticating user root 192.168.1.43 port 60618: Too many authentication failures [preauth]
+May 21 11:50:14 ubandujelly22 sshd[5365]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:14 ubandujelly22 sshd[5365]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:15 ubandujelly22 sshd[5371]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:15 ubandujelly22 sshd[5372]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:15 ubandujelly22 sshd[5373]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:15 ubandujelly22 sshd[5374]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:16 ubandujelly22 sshd[5371]: Failed password for root from 192.168.1.43 port 46042 ssh2
+May 21 11:50:16 ubandujelly22 sshd[5372]: Failed password for root from 192.168.1.43 port 46048 ssh2
+May 21 11:50:17 ubandujelly22 sshd[5373]: Failed password for root from 192.168.1.43 port 46058 ssh2
+May 21 11:50:17 ubandujelly22 sshd[5374]: Failed password for root from 192.168.1.43 port 46066 ssh2
+May 21 11:50:21 ubandujelly22 sshd[5371]: Failed password for root from 192.168.1.43 port 46042 ssh2
+May 21 11:50:21 ubandujelly22 sshd[5372]: Failed password for root from 192.168.1.43 port 46048 ssh2
+May 21 11:50:21 ubandujelly22 sshd[5373]: Failed password for root from 192.168.1.43 port 46058 ssh2
+May 21 11:50:21 ubandujelly22 sshd[5374]: Failed password for root from 192.168.1.43 port 46066 ssh2
+May 21 11:50:24 ubandujelly22 sshd[5371]: Failed password for root from 192.168.1.43 port 46042 ssh2
+May 21 11:50:24 ubandujelly22 sshd[5372]: Failed password for root from 192.168.1.43 port 46048 ssh2
+May 21 11:50:24 ubandujelly22 sshd[5373]: Failed password for root from 192.168.1.43 port 46058 ssh2
+May 21 11:50:24 ubandujelly22 sshd[5374]: Failed password for root from 192.168.1.43 port 46066 ssh2
+May 21 11:50:28 ubandujelly22 sshd[5371]: Failed password for root from 192.168.1.43 port 46042 ssh2
+May 21 11:50:28 ubandujelly22 sshd[5372]: Failed password for root from 192.168.1.43 port 46048 ssh2
+May 21 11:50:28 ubandujelly22 sshd[5373]: Failed password for root from 192.168.1.43 port 46058 ssh2
+May 21 11:50:28 ubandujelly22 sshd[5374]: Failed password for root from 192.168.1.43 port 46066 ssh2
+May 21 11:50:30 ubandujelly22 sshd[5371]: Failed password for root from 192.168.1.43 port 46042 ssh2
+May 21 11:50:30 ubandujelly22 sshd[5374]: Failed password for root from 192.168.1.43 port 46066 ssh2
+May 21 11:50:32 ubandujelly22 sshd[5372]: Failed password for root from 192.168.1.43 port 46048 ssh2
+May 21 11:50:32 ubandujelly22 sshd[5373]: Failed password for root from 192.168.1.43 port 46058 ssh2
+May 21 11:50:34 ubandujelly22 sshd[5371]: Failed password for root from 192.168.1.43 port 46042 ssh2
+May 21 11:50:34 ubandujelly22 sshd[5374]: Failed password for root from 192.168.1.43 port 46066 ssh2
+May 21 11:50:36 ubandujelly22 sshd[5371]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 46042 ssh2 [preauth]
+May 21 11:50:36 ubandujelly22 sshd[5371]: Disconnecting authenticating user root 192.168.1.43 port 46042: Too many authentication failures [preauth]
+May 21 11:50:36 ubandujelly22 sshd[5371]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:36 ubandujelly22 sshd[5371]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:36 ubandujelly22 sshd[5374]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 46066 ssh2 [preauth]
+May 21 11:50:36 ubandujelly22 sshd[5374]: Disconnecting authenticating user root 192.168.1.43 port 46066: Too many authentication failures [preauth]
+May 21 11:50:36 ubandujelly22 sshd[5374]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:36 ubandujelly22 sshd[5374]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:36 ubandujelly22 sshd[5379]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:36 ubandujelly22 sshd[5381]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:37 ubandujelly22 sshd[5372]: Failed password for root from 192.168.1.43 port 46048 ssh2
+May 21 11:50:37 ubandujelly22 sshd[5373]: Failed password for root from 192.168.1.43 port 46058 ssh2
+May 21 11:50:38 ubandujelly22 sshd[5372]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 46048 ssh2 [preauth]
+May 21 11:50:38 ubandujelly22 sshd[5372]: Disconnecting authenticating user root 192.168.1.43 port 46048: Too many authentication failures [preauth]
+May 21 11:50:38 ubandujelly22 sshd[5372]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:38 ubandujelly22 sshd[5372]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:38 ubandujelly22 sshd[5373]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 46058 ssh2 [preauth]
+May 21 11:50:38 ubandujelly22 sshd[5373]: Disconnecting authenticating user root 192.168.1.43 port 46058: Too many authentication failures [preauth]
+May 21 11:50:38 ubandujelly22 sshd[5373]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:38 ubandujelly22 sshd[5373]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:38 ubandujelly22 sshd[5383]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:38 ubandujelly22 sshd[5385]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:39 ubandujelly22 sshd[5379]: Failed password for root from 192.168.1.43 port 58742 ssh2
+May 21 11:50:39 ubandujelly22 sshd[5381]: Failed password for root from 192.168.1.43 port 58744 ssh2
+May 21 11:50:40 ubandujelly22 sshd[5383]: Failed password for root from 192.168.1.43 port 58746 ssh2
+May 21 11:50:40 ubandujelly22 sshd[5385]: Failed password for root from 192.168.1.43 port 58748 ssh2
+May 21 11:50:42 ubandujelly22 sshd[5379]: Failed password for root from 192.168.1.43 port 58742 ssh2
+May 21 11:50:42 ubandujelly22 sshd[5383]: Failed password for root from 192.168.1.43 port 58746 ssh2
+May 21 11:50:42 ubandujelly22 sshd[5385]: Failed password for root from 192.168.1.43 port 58748 ssh2
+May 21 11:50:42 ubandujelly22 sshd[5381]: Failed password for root from 192.168.1.43 port 58744 ssh2
+May 21 11:50:46 ubandujelly22 sshd[5379]: Failed password for root from 192.168.1.43 port 58742 ssh2
+May 21 11:50:46 ubandujelly22 sshd[5383]: Failed password for root from 192.168.1.43 port 58746 ssh2
+May 21 11:50:46 ubandujelly22 sshd[5385]: Failed password for root from 192.168.1.43 port 58748 ssh2
+May 21 11:50:46 ubandujelly22 sshd[5381]: Failed password for root from 192.168.1.43 port 58744 ssh2
+May 21 11:50:51 ubandujelly22 sshd[5379]: Failed password for root from 192.168.1.43 port 58742 ssh2
+May 21 11:50:51 ubandujelly22 sshd[5383]: Failed password for root from 192.168.1.43 port 58746 ssh2
+May 21 11:50:51 ubandujelly22 sshd[5385]: Failed password for root from 192.168.1.43 port 58748 ssh2
+May 21 11:50:51 ubandujelly22 sshd[5381]: Failed password for root from 192.168.1.43 port 58744 ssh2
+May 21 11:50:54 ubandujelly22 sshd[5379]: Failed password for root from 192.168.1.43 port 58742 ssh2
+May 21 11:50:54 ubandujelly22 sshd[5383]: Failed password for root from 192.168.1.43 port 58746 ssh2
+May 21 11:50:54 ubandujelly22 sshd[5385]: Failed password for root from 192.168.1.43 port 58748 ssh2
+May 21 11:50:54 ubandujelly22 sshd[5381]: Failed password for root from 192.168.1.43 port 58744 ssh2
+May 21 11:50:58 ubandujelly22 sshd[5379]: Failed password for root from 192.168.1.43 port 58742 ssh2
+May 21 11:50:58 ubandujelly22 sshd[5383]: Failed password for root from 192.168.1.43 port 58746 ssh2
+May 21 11:50:58 ubandujelly22 sshd[5385]: Failed password for root from 192.168.1.43 port 58748 ssh2
+May 21 11:50:58 ubandujelly22 sshd[5381]: Failed password for root from 192.168.1.43 port 58744 ssh2
+May 21 11:50:58 ubandujelly22 sshd[5379]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 58742 ssh2 [preauth]
+May 21 11:50:58 ubandujelly22 sshd[5379]: Disconnecting authenticating user root 192.168.1.43 port 58742: Too many authentication failures [preauth]
+May 21 11:50:58 ubandujelly22 sshd[5379]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:58 ubandujelly22 sshd[5379]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:58 ubandujelly22 sshd[5383]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 58746 ssh2 [preauth]
+May 21 11:50:58 ubandujelly22 sshd[5383]: Disconnecting authenticating user root 192.168.1.43 port 58746: Too many authentication failures [preauth]
+May 21 11:50:58 ubandujelly22 sshd[5383]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:58 ubandujelly22 sshd[5383]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:58 ubandujelly22 sshd[5385]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 58748 ssh2 [preauth]
+May 21 11:50:58 ubandujelly22 sshd[5385]: Disconnecting authenticating user root 192.168.1.43 port 58748: Too many authentication failures [preauth]
+May 21 11:50:58 ubandujelly22 sshd[5385]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:58 ubandujelly22 sshd[5385]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:58 ubandujelly22 sshd[5381]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 58744 ssh2 [preauth]
+May 21 11:50:58 ubandujelly22 sshd[5381]: Disconnecting authenticating user root 192.168.1.43 port 58744: Too many authentication failures [preauth]
+May 21 11:50:58 ubandujelly22 sshd[5381]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:58 ubandujelly22 sshd[5381]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:50:58 ubandujelly22 sshd[5387]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:58 ubandujelly22 sshd[5388]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:58 ubandujelly22 sshd[5391]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:50:58 ubandujelly22 sshd[5393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:01 ubandujelly22 sshd[5387]: Failed password for root from 192.168.1.43 port 46358 ssh2
+May 21 11:51:01 ubandujelly22 sshd[5388]: Failed password for root from 192.168.1.43 port 46374 ssh2
+May 21 11:51:01 ubandujelly22 sshd[5391]: Failed password for root from 192.168.1.43 port 46386 ssh2
+May 21 11:51:01 ubandujelly22 sshd[5393]: Failed password for root from 192.168.1.43 port 46398 ssh2
+May 21 11:51:04 ubandujelly22 sshd[5387]: Failed password for root from 192.168.1.43 port 46358 ssh2
+May 21 11:51:04 ubandujelly22 sshd[5388]: Failed password for root from 192.168.1.43 port 46374 ssh2
+May 21 11:51:04 ubandujelly22 sshd[5391]: Failed password for root from 192.168.1.43 port 46386 ssh2
+May 21 11:51:04 ubandujelly22 sshd[5393]: Failed password for root from 192.168.1.43 port 46398 ssh2
+May 21 11:51:08 ubandujelly22 sshd[5387]: Failed password for root from 192.168.1.43 port 46358 ssh2
+May 21 11:51:08 ubandujelly22 sshd[5388]: Failed password for root from 192.168.1.43 port 46374 ssh2
+May 21 11:51:08 ubandujelly22 sshd[5391]: Failed password for root from 192.168.1.43 port 46386 ssh2
+May 21 11:51:08 ubandujelly22 sshd[5393]: Failed password for root from 192.168.1.43 port 46398 ssh2
+May 21 11:51:12 ubandujelly22 sshd[5387]: Failed password for root from 192.168.1.43 port 46358 ssh2
+May 21 11:51:13 ubandujelly22 sshd[5388]: Failed password for root from 192.168.1.43 port 46374 ssh2
+May 21 11:51:13 ubandujelly22 sshd[5391]: Failed password for root from 192.168.1.43 port 46386 ssh2
+May 21 11:51:13 ubandujelly22 sshd[5393]: Failed password for root from 192.168.1.43 port 46398 ssh2
+May 21 11:51:16 ubandujelly22 sshd[5387]: Failed password for root from 192.168.1.43 port 46358 ssh2
+May 21 11:51:16 ubandujelly22 sshd[5388]: Failed password for root from 192.168.1.43 port 46374 ssh2
+May 21 11:51:16 ubandujelly22 sshd[5391]: Failed password for root from 192.168.1.43 port 46386 ssh2
+May 21 11:51:16 ubandujelly22 sshd[5393]: Failed password for root from 192.168.1.43 port 46398 ssh2
+May 21 11:51:20 ubandujelly22 sshd[5387]: Failed password for root from 192.168.1.43 port 46358 ssh2
+May 21 11:51:20 ubandujelly22 sshd[5388]: Failed password for root from 192.168.1.43 port 46374 ssh2
+May 21 11:51:20 ubandujelly22 sshd[5391]: Failed password for root from 192.168.1.43 port 46386 ssh2
+May 21 11:51:20 ubandujelly22 sshd[5393]: Failed password for root from 192.168.1.43 port 46398 ssh2
+May 21 11:51:22 ubandujelly22 sshd[5387]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 46358 ssh2 [preauth]
+May 21 11:51:22 ubandujelly22 sshd[5387]: Disconnecting authenticating user root 192.168.1.43 port 46358: Too many authentication failures [preauth]
+May 21 11:51:22 ubandujelly22 sshd[5387]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:22 ubandujelly22 sshd[5387]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:51:22 ubandujelly22 sshd[5388]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 46374 ssh2 [preauth]
+May 21 11:51:22 ubandujelly22 sshd[5388]: Disconnecting authenticating user root 192.168.1.43 port 46374: Too many authentication failures [preauth]
+May 21 11:51:22 ubandujelly22 sshd[5388]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:22 ubandujelly22 sshd[5388]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:51:22 ubandujelly22 sshd[5391]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 46386 ssh2 [preauth]
+May 21 11:51:22 ubandujelly22 sshd[5391]: Disconnecting authenticating user root 192.168.1.43 port 46386: Too many authentication failures [preauth]
+May 21 11:51:22 ubandujelly22 sshd[5391]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:22 ubandujelly22 sshd[5391]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:51:22 ubandujelly22 sshd[5393]: error: maximum authentication attempts exceeded for root from 192.168.1.43 port 46398 ssh2 [preauth]
+May 21 11:51:22 ubandujelly22 sshd[5393]: Disconnecting authenticating user root 192.168.1.43 port 46398: Too many authentication failures [preauth]
+May 21 11:51:22 ubandujelly22 sshd[5393]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:22 ubandujelly22 sshd[5393]: PAM service(sshd) ignoring max retries; 6 > 3
+May 21 11:51:22 ubandujelly22 sshd[5397]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:22 ubandujelly22 sshd[5398]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:22 ubandujelly22 sshd[5399]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:22 ubandujelly22 sshd[5403]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:25 ubandujelly22 sshd[5397]: Failed password for root from 192.168.1.43 port 52424 ssh2
+May 21 11:51:25 ubandujelly22 sshd[5398]: Failed password for root from 192.168.1.43 port 52426 ssh2
+May 21 11:51:25 ubandujelly22 sshd[5399]: Failed password for root from 192.168.1.43 port 52430 ssh2
+May 21 11:51:25 ubandujelly22 sshd[5403]: Failed password for root from 192.168.1.43 port 52446 ssh2
+May 21 11:51:28 ubandujelly22 sshd[5397]: Failed password for root from 192.168.1.43 port 52424 ssh2
+May 21 11:51:28 ubandujelly22 sshd[5398]: Failed password for root from 192.168.1.43 port 52426 ssh2
+May 21 11:51:28 ubandujelly22 sshd[5399]: Failed password for root from 192.168.1.43 port 52430 ssh2
+May 21 11:51:28 ubandujelly22 sshd[5403]: Failed password for root from 192.168.1.43 port 52446 ssh2
+May 21 11:51:32 ubandujelly22 sshd[5397]: Failed password for root from 192.168.1.43 port 52424 ssh2
+May 21 11:51:32 ubandujelly22 sshd[5398]: Failed password for root from 192.168.1.43 port 52426 ssh2
+May 21 11:51:32 ubandujelly22 sshd[5399]: Failed password for root from 192.168.1.43 port 52430 ssh2
+May 21 11:51:33 ubandujelly22 sshd[5403]: Failed password for root from 192.168.1.43 port 52446 ssh2
+May 21 11:51:34 ubandujelly22 sshd[5397]: Connection closed by authenticating user root 192.168.1.43 port 52424 [preauth]
+May 21 11:51:34 ubandujelly22 sshd[5397]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:34 ubandujelly22 sshd[5398]: Connection closed by authenticating user root 192.168.1.43 port 52426 [preauth]
+May 21 11:51:34 ubandujelly22 sshd[5398]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:34 ubandujelly22 sshd[5399]: Connection closed by authenticating user root 192.168.1.43 port 52430 [preauth]
+May 21 11:51:34 ubandujelly22 sshd[5399]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 11:51:34 ubandujelly22 sshd[5403]: Connection closed by authenticating user root 192.168.1.43 port 52446 [preauth]
+May 21 11:51:34 ubandujelly22 sshd[5403]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=root
+May 21 12:10:16 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 21 12:10:31 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 21 12:10:31 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 12:10:31 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 12:11:57 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 21 12:11:57 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 12:11:57 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 14:39:03 ubandujelly22 CRON[5519]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 21 14:39:03 ubandujelly22 CRON[5519]: pam_unix(cron:session): session closed for user root
+May 21 14:39:03 ubandujelly22 CRON[5521]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 21 14:39:03 ubandujelly22 CRON[5521]: pam_unix(cron:session): session closed for user root
+May 21 14:39:03 ubandujelly22 CRON[5523]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+May 21 14:39:03 ubandujelly22 CRON[5523]: pam_unix(cron:session): session closed for user root
+May 21 14:41:28 ubandujelly22 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+May 21 14:41:28 ubandujelly22 pkexec[5943]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May 21 19:36:58 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 21 19:37:53 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/grep -ac 'Failed password' /var/log/auth.log
+May 21 19:37:53 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:37:53 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:38:36 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/grep -a 'Failed password' /var/log/auth.log
+May 21 19:38:36 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:38:36 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:41:38 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/grep -ac 'Failed password' /var/log/auth.log
+May 21 19:41:38 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:41:38 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:41:43 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/grep -a 'Failed password' /var/log/auth.log
+May 21 19:41:43 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:41:43 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:42:01 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 21 19:42:01 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:42:01 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:42:10 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 21 19:42:10 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:42:10 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:42:32 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+May 21 19:42:32 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:42:32 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:42:43 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/grep -ac 'Failed password' /var/log/auth.log
+May 21 19:42:43 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:42:43 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:42:52 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/grep -a 'Failed password' /var/log/auth.log
+May 21 19:42:52 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:42:52 ubandujelly22 sudo: pam_unix(sudo:session): session closed for user root
+May 21 19:48:39 ubandujelly22 sshd[6201]: Accepted password for vboxuser from 192.168.1.43 port 55020 ssh2
+May 21 19:48:39 ubandujelly22 sshd[6201]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 21 19:48:39 ubandujelly22 systemd-logind[685]: New session 9 of user vboxuser.
+May 21 19:48:40 ubandujelly22 sshd[6260]: Received disconnect from 192.168.1.43 port 55020:11: disconnected by user
+May 21 19:48:40 ubandujelly22 sshd[6260]: Disconnected from user vboxuser 192.168.1.43 port 55020
+May 21 19:48:40 ubandujelly22 sshd[6201]: pam_unix(sshd:session): session closed for user vboxuser
+May 21 19:48:40 ubandujelly22 systemd-logind[685]: Session 9 logged out. Waiting for processes to exit.
+May 21 19:48:44 ubandujelly22 systemd-logind[685]: Removed session 9.
+May 21 19:48:51 ubandujelly22 sshd[6280]: Accepted password for vboxuser from 192.168.1.43 port 44394 ssh2
+May 21 19:48:51 ubandujelly22 sshd[6280]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 21 19:48:51 ubandujelly22 systemd-logind[685]: New session 10 of user vboxuser.
+May 21 19:48:51 ubandujelly22 sshd[6329]: Received disconnect from 192.168.1.43 port 44394:11: disconnected by user
+May 21 19:48:51 ubandujelly22 sshd[6329]: Disconnected from user vboxuser 192.168.1.43 port 44394
+May 21 19:48:51 ubandujelly22 sshd[6280]: pam_unix(sshd:session): session closed for user vboxuser
+May 21 19:48:51 ubandujelly22 systemd-logind[685]: Session 10 logged out. Waiting for processes to exit.
+May 21 19:48:51 ubandujelly22 systemd-logind[685]: Removed session 10.
+May 21 19:58:33 ubandujelly22 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=vboxuser
+May 21 19:58:42 ubandujelly22 gdm-password]: gkr-pam: the password for the login keyring was invalid.
+May 21 19:59:02 ubandujelly22 su: pam_unix(su-l:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=vboxuser rhost=  user=root
+May 21 19:59:04 ubandujelly22 su: FAILED SU (to root) vboxuser on pts/1
+May 21 19:59:16 ubandujelly22 su: (to root) vboxuser on pts/1
+May 21 19:59:16 ubandujelly22 su: pam_unix(su-l:session): session opened for user root(uid=0) by (uid=1000)
+May 21 19:59:54 ubandujelly22 sshd[6427]: Accepted password for vboxuser from 192.168.1.43 port 40102 ssh2
+May 21 19:59:54 ubandujelly22 sshd[6427]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 21 19:59:54 ubandujelly22 systemd-logind[685]: New session 11 of user vboxuser.
+May 21 19:59:55 ubandujelly22 sshd[6464]: Received disconnect from 192.168.1.43 port 40102:11: disconnected by user
+May 21 19:59:55 ubandujelly22 sshd[6464]: Disconnected from user vboxuser 192.168.1.43 port 40102
+May 21 19:59:55 ubandujelly22 sshd[6427]: pam_unix(sshd:session): session closed for user vboxuser
+May 21 19:59:55 ubandujelly22 systemd-logind[685]: Session 11 logged out. Waiting for processes to exit.
+May 21 19:59:55 ubandujelly22 systemd-logind[685]: Removed session 11.
+May 21 20:00:06 ubandujelly22 sshd[6466]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=vboxuser
+May 21 20:00:09 ubandujelly22 sshd[6466]: Failed password for vboxuser from 192.168.1.43 port 47904 ssh2
+May 21 20:00:28 ubandujelly22 sshd[6466]: message repeated 2 times: [ Failed password for vboxuser from 192.168.1.43 port 47904 ssh2]
+May 21 20:00:28 ubandujelly22 sshd[6466]: Connection closed by authenticating user vboxuser 192.168.1.43 port 47904 [preauth]
+May 21 20:00:28 ubandujelly22 sshd[6466]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.43  user=vboxuser
+May 21 20:00:37 ubandujelly22 sshd[6468]: Accepted password for vboxuser from 192.168.1.43 port 40262 ssh2
+May 21 20:00:37 ubandujelly22 sshd[6468]: pam_unix(sshd:session): session opened for user vboxuser(uid=1000) by (uid=0)
+May 21 20:00:37 ubandujelly22 systemd-logind[685]: New session 12 of user vboxuser.
+May 21 20:00:38 ubandujelly22 sshd[6505]: Received disconnect from 192.168.1.43 port 40262:11: disconnected by user
+May 21 20:00:38 ubandujelly22 sshd[6505]: Disconnected from user vboxuser 192.168.1.43 port 40262
+May 21 20:00:38 ubandujelly22 sshd[6468]: pam_unix(sshd:session): session closed for user vboxuser
+May 21 20:00:38 ubandujelly22 systemd-logind[685]: Session 12 logged out. Waiting for processes to exit.
+May 21 20:00:38 ubandujelly22 systemd-logind[685]: Removed session 12.
+May 21 20:04:10 ubandujelly22 sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/vboxuser/auth.log
+May 21 20:04:10 ubandujelly22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
