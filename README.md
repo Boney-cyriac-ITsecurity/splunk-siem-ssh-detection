@@ -157,7 +157,7 @@ Shows all IPs with >10 failed attempts.
 Shows failed attempts per minute over time.
 
 **Screenshot:**
-![Attack Timeline](screenshots/05_query3_timeline.png)
+![Attack Timeline](screenshots/05_query3_timeline.png.png)
 
 **Key Insight:** Peak of 64 attempts/minute confirms tool-driven attack. Humans cannot attempt 64 logins/minute—this is Hydra at full speed (4 threads, 16 passwords/thread).
 
@@ -245,11 +245,11 @@ splunk-siem-ssh-detection/
 
 ## Key Takeaways
 
-✅ **Detection Logic:** Threshold-based (10+ failures = alert)  
-✅ **Real Lab Proof:** Screenshots show actual Splunk execution  
-✅ **Regex Skills:** Manual field extraction using `rex`  
-✅ **Alert Design:** Scheduled search with severity and actions  
-✅ **Investigation Ready:** Dashboard panels for quick triage  
+ **Detection Logic:** Threshold-based (10+ failures = alert)  
+ **Real Lab Proof:** Screenshots show actual Splunk execution  
+ **Regex Skills:** Manual field extraction using `rex`  
+ **Alert Design:** Scheduled search with severity and actions  
+ **Investigation Ready:** Dashboard panels for quick triage  
 
 ---
 
