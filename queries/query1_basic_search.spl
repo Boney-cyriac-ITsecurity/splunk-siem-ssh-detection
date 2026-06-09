@@ -1,0 +1,8 @@
+QUERY 1 — Basic Event Search
+Find all failed SSH login events in the log
+---------------------------------------------------------
+
+index=main sourcetype=linux_secure "Failed password"
+
+Expected output: 123 events
+Use case: Verify data is ingested correctly

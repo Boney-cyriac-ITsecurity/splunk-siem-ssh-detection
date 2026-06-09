@@ -1,0 +1,16 @@
+QUERY 3 — Threshold Detection with Status Label
+Flag any IP exceeding 10 failed attempts as BRUTE FORCE
+---------------------------------------------------------
+
+index=main sourcetype=linux_secure "Failed password"
+| rex "from (?P<attacker_ip>\d+\.\d+\.\d+\.\d+)"
+| stats count by attacker_ip
+| where count > 10
+| eval status="BRUTE FORCE DETECTED"
+| table attacker_ip, count, status
+
+Expected output:
+attacker_ip       count    status
+192.168.1.43      110      BRUTE FORCE DETECTED
+
+Use case: Detection rule — base query for alert

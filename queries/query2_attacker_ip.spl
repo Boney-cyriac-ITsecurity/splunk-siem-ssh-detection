@@ -1,0 +1,24 @@
+QUERY 2 — Identify Attacker IP (with regex extraction)
+Extract source IP and count attempts per IP
+---------------------------------------------------------
+
+index=main sourcetype=linux_secure "Failed password"
+| rex "from (?P<attacker_ip>\d+\.\d+\.\d+\.\d+)"
+| stats count by attacker_ip
+| sort -count
+
+Expected output:
+attacker_ip       count
+192.168.1.43      110
+127.0.0.1           5
+
+NOTE: Used rex (regex) instead of built-in src_ip field
+because linux_secure sourcetype did not auto-extract
+src_ip on this Splunk version. This is a common
+real-world issue — always verify field extraction
+by inspecting raw events first.
+
+Regex explanation:
+  from          → literal text before the IP in auth.log
+  (?P<name>...) → named capture group
+  \d+\.\d+\.\d+\.\d+ → matches IPv4 address pattern
